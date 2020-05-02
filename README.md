@@ -15,9 +15,9 @@ For demo [click](https://ijazulrehman.github.io/Lazy-Img/)
 <lazy-img src="https://cdn.pixabay.com/photo/2019/06/08/21/23/women-4261014_960_720.jpg">
     <span slot="header">Caption title here</span>
     <span slot="caption">
-      Captions here
+        Captions here
     </span>
-  </lazy-img>
+</lazy-img>
 ```
 
 ## Local Testing 
@@ -27,7 +27,14 @@ For demo [click](https://ijazulrehman.github.io/Lazy-Img/)
 ```bash
     npm install --global http-server
 ```
-2. Run `http-server` for a dev server. Navigate to `http://127.0.0.1:8080/`.
+
+2. Run `http-server` on cmd or bash for a dev server. 
+
+```bash
+    http-server
+```
+
+3. Navigate to `http://127.0.0.1:8080/`.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
